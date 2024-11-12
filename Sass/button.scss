@@ -1,0 +1,19 @@
+@function darken($color, $amount) {
+    @return darken($color, 20%);
+}
+
+
+.btn {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    &:hover {
+        background-color: blue;
+        
+    }
+}
