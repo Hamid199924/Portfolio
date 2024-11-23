@@ -1,14 +1,21 @@
-body {
-    background-color: $info;
-    color: $white;
+body{
+    background-color: $dark;
+    color:$white;
     margin: 0 30px;
 }
 
-main {
+main{
     margin: 0 30px;
-    
 }
-header-website {
+
+header.header-website{
     height: 75px;
     margin-bottom: 15px;
+}
+
+picture.emoji-gif{
+    img{
+        width: 1em;
+        height: 1em;
+    }
 }

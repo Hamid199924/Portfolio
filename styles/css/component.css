@@ -15,9 +15,16 @@
 }
 .section-display .illustration {
   flex: 1;
+  padding: 5rem;
 }
 .section-display .illustration img {
   max-width: 100%;
   display: block;
   margin: auto;
+}
+.section-display.right-text-content {
+  flex-direction: row-reverse;
+}
+.section-display .text-content {
+  padding: 50px;
 }/*# sourceMappingURL=component.css.map */
