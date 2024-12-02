@@ -1,7 +1,8 @@
+@import 'variables';
+@import 'Mixins/mixins';
 @import 'typography';
 @import 'layout';
-@import'vraibles';
-@import 'component';
-@import 'button';
+@import 'components';
+@import 'buttons';
 @import 'animations';
-
+@import 'navbar';

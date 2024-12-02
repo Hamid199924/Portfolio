@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,13 +9,37 @@
 </head>
 <body>
     <header class="header-website">
-        HEADER
+        <nav class="navbar">
+            <div class="logo">
+                <!-- <img src="img/logo.png" alt="Logo Thomas BDC"> -->
+                 <span class="logo-text">Hamid HOM</span>
+            </div>
+            <div class="menu">
+                <label class="btn btn-secondary menu-input-label" for="menu-toggle"><i class="fa-solid fa-bars"></i></label>
+                <input type="checkbox" id="menu-toggle" class="menu-input" title="Toggle Menu"/>
+                <div class="dropdown-menu">
+                    <ul class="nav-links">
+                        <li class="nav-link">
+                            <a href="#accueil">Accueil</a>
+                        </li>
+                        <li class="nav-link" >
+                            <a href="#competences">Compétences</a>
+                        </li>
+                        <li class="nav-link" >
+                            <a href="#blog">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+            
+        </nav>
     </header>
     <main>
-        <section class="section-display left-text-content">
+        <section class="section-display left-text-content" id="accueil">
             <article class="text-content">
                 <h1 class="title">
-                    Hamid HOM
+                    HAMID HOM
                     <picture class="emoji-gif">
                         <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/26a1/512.webp" type="image/webp">
                         <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/26a1/512.gif" alt="⚡">
@@ -40,7 +64,7 @@
                 <img src="img/presentation.png" alt="presentation de Thomas BDC">
             </div>
         </section>
-        <section class="section-display right-text-content">
+        <section class="section-display right-text-content" id="competences">
             <article class="text-content">
                 <h2 class="title">Mes compétences</h2>
                 <p class="paragraph">Voici les compétences que je maîtrise :</p>
@@ -56,9 +80,35 @@
                 <img src="img/competenves.png" alt="Compétences">
             </div>
         </section>
+        <section class="section-display full-text-content" id="blog">
+            <div class="text-content">
+                <h2 class="title">Blog</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ea dolor, eos, non minus quos cum corporis voluptas nihil corrupti earum accusamus repellat aliquid voluptatem laudantium minima, omnis quaerat adipisci.</p>
+                <section class="list-blog">
+                    <a href="https://google.com">
+                        <article class="blog">
+                            <h4>Lorem ipsum dolor sit amet.</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ea dolor, eos, non minus quos cum corporis voluptas nihil corrupti earum accusamus repellat aliquid voluptatem laudantium minima, omnis quaerat adipisci.</p>
+                            <div href="google.com" class="link-blog"><i class="fa-solid fa-arrow-right"></i></div>
+                        </article>
+                    </a>
+                    <a href="https://google.com">
+                        <article class="blog">
+                            <h4>Lorem ipsum dolor sit amet.</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ea dolor, eos, non minus quos cum corporis voluptas nihil corrupti earum accusamus repellat aliquid voluptatem laudantium minima, omnis quaerat adipisci.</p>
+                            <div href="google.com" class="link-blog"><i class="fa-solid fa-arrow-right"></i></div>
+                        </article>
+                    </a>
+                </section>
+            </div>
+        </section>
     </main>
     <footer>
         FOOTER
     </footer>
+    <div id="loader">
+        <div class="loader">
+        </div>  
+    </div>
 </body>
 </html>
